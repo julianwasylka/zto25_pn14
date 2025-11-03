@@ -1,0 +1,11 @@
+C:\Szkola\sem7\Zaawansowane_Techniki_Obiektowe\Laby\Lab2\zto25_pn14-main\PetShop\bin\Debug\net8.0\PetShop.deps.json
+C:\Szkola\sem7\Zaawansowane_Techniki_Obiektowe\Laby\Lab2\zto25_pn14-main\PetShop\bin\Debug\net8.0\PetShop.dll
+C:\Szkola\sem7\Zaawansowane_Techniki_Obiektowe\Laby\Lab2\zto25_pn14-main\PetShop\bin\Debug\net8.0\PetShop.pdb
+C:\Szkola\sem7\Zaawansowane_Techniki_Obiektowe\Laby\Lab2\zto25_pn14-main\PetShop\obj\Debug\net8.0\PetShop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Szkola\sem7\Zaawansowane_Techniki_Obiektowe\Laby\Lab2\zto25_pn14-main\PetShop\obj\Debug\net8.0\PetShop.AssemblyInfoInputs.cache
+C:\Szkola\sem7\Zaawansowane_Techniki_Obiektowe\Laby\Lab2\zto25_pn14-main\PetShop\obj\Debug\net8.0\PetShop.AssemblyInfo.cs
+C:\Szkola\sem7\Zaawansowane_Techniki_Obiektowe\Laby\Lab2\zto25_pn14-main\PetShop\obj\Debug\net8.0\PetShop.csproj.CoreCompileInputs.cache
+C:\Szkola\sem7\Zaawansowane_Techniki_Obiektowe\Laby\Lab2\zto25_pn14-main\PetShop\obj\Debug\net8.0\PetShop.dll
+C:\Szkola\sem7\Zaawansowane_Techniki_Obiektowe\Laby\Lab2\zto25_pn14-main\PetShop\obj\Debug\net8.0\refint\PetShop.dll
+C:\Szkola\sem7\Zaawansowane_Techniki_Obiektowe\Laby\Lab2\zto25_pn14-main\PetShop\obj\Debug\net8.0\PetShop.pdb
+C:\Szkola\sem7\Zaawansowane_Techniki_Obiektowe\Laby\Lab2\zto25_pn14-main\PetShop\obj\Debug\net8.0\ref\PetShop.dll
