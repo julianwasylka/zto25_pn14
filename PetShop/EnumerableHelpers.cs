@@ -11,15 +11,39 @@ public static class EnumerableHelpers
             yield return item;
         }
     }
-
-    public static IEnumerable<Pet> AllPetsThatSatisfy(this IList<Pet> pets, Predicate<Pet> condition)
+    public static IEnumerable<TItem> AllItemsThat<TItem>(this IList<TItem> items, Predicate<TItem> predicate)
     {
-        foreach (var pet in pets)
+        return items.AllItemsThat(new AnonymousCriteria<TItem>(predicate));
+    }
+
+    public static IEnumerable<TItem> AllItemsThat<TItem>(this IList<TItem> items, Criteria<TItem> criteria)
+    {
+        foreach (var item in items)
         {
-            if (condition(pet))
+            if (criteria.IsSatisfiedBy(item))
             {
-                yield return pet;
+                yield return item;
             }
         }
     }
+}
+
+public class AnonymousCriteria<T> : Criteria<T>
+{
+    private readonly Predicate<T> _predicate;
+
+    public AnonymousCriteria(Predicate<T> predicate)
+    {
+        _predicate = predicate;
+    }
+
+    public bool IsSatisfiedBy(T item)
+    {
+        return _predicate(item);
+    }
+}
+
+public interface Criteria<TItem>
+{
+    bool IsSatisfiedBy(TItem item);
 }
